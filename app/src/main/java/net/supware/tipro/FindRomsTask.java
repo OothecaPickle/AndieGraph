@@ -17,8 +17,7 @@ abstract public class FindRomsTask extends
 	private static final String TAG = FindRomsTask.class.getSimpleName();
 
 	private String[] SEARCH_LOCATIONS = {
-			Environment.getExternalStorageDirectory().getAbsolutePath(),
-			"/mnt/sdcard", "/mnt/sdcard-ext" };
+			Environment.getExternalStorageDirectory().getAbsolutePath() + "/Documents/TIRoms", "/mnt/sdcard", "/mnt/sdcard-ext" };
 
 	protected Queue<String> mFileQueue = new LinkedList<>();
 
